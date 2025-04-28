@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.content-title{
+.content-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,18 +14,18 @@
 }
 
 
-.content-title h1{
+.content-title h1 {
     font-size: 2rem;
     text-align: left;
     margin: 20px 0;
-    
+
 }
 
-main{
+main {
     width: 100%;
 }
 
-.content-carousel{
+.content-carousel {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -34,21 +34,22 @@ main{
     height: 100vh;
 }
 
-#carouselExampleFade{
+#carouselExampleFade {
     width: 100%;
     max-width: 1000px;
     margin: auto;
     display: flex;
     flex-direction: row;
 }
+
 .carousel-inner {
     width: 300px;
-    position: relative; 
+    position: relative;
 }
 
 .carousel-inner-2 {
     width: 300px;
-    position: relative; 
+    position: relative;
 }
 
 
@@ -59,28 +60,29 @@ main{
     max-width: 90vw;
     height: auto;
     max-height: 80vh;
-    object-fit: contain; 
-    margin: 0 auto; 
-  }
+    object-fit: contain;
+    margin: 0 auto;
+}
+
 .carousel-image-small {
-    max-height: 800px; 
-    max-width: 80%; 
+    max-height: 800px;
+    max-width: 80%;
     height: auto;
     width: auto;
     display: block;
     margin: 0 auto;
-    object-fit: contain; 
-  }
+    object-fit: contain;
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(170, 8, 8, 0.5); 
-  border-radius: 50%;
-  padding: 10px; 
-  width: 500px;
+    background-color: rgba(170, 8, 8, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+    width: 500px;
 }
 
-.btn-all{
+.btn-all {
 
     margin: 5px auto;
     width: 30%;
@@ -88,22 +90,22 @@ main{
 
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #000;
     color: #fff;
 }
 
-.card-body{
+.card-body {
     margin: 1rem;
-    width: 30%;
+    width: 100%;
 }
 
-footer{
+footer {
     background-color: #000;
     color: #fff;
     padding: 1rem;
     text-align: center;
     position: relative;
     margin-top: 40px;
- 
+
 }
