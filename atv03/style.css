@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.content-title h1{
+    font-size: 2rem;
+    text-align: left;
+    margin: 20px 0;
+    
+}
+
+main{
+    width: 100%;
+}
+
+.content-carousel{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#carouselExampleFade{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.carousel-inner {
+    width: 300px;
+    position: relative; 
+}
+
+.carousel-inner-2 {
+    width: 300px;
+    position: relative; 
+}
+
+
+
+.carousel-item img {
+    display: block;
+    width: auto;
+    max-width: 90vw;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain; 
+    margin: 0 auto; 
+  }
+.carousel-image-small {
+    max-height: 800px; 
+    max-width: 80%; 
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain; 
+  }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(170, 8, 8, 0.5); 
+  border-radius: 50%;
+  padding: 10px; 
+  width: 500px;
+}
+
+.btn-all{
+
+    margin: 5px auto;
+    width: 30%;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.card-body{
+    margin: 1rem;
+    width: 30%;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+ 
+}
