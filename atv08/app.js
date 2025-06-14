@@ -18,6 +18,16 @@ app.use(express.static(path.join(__dirname, 'style')));
 
 app.use(express.urlencoded({ extended: false }));
 
+app.get('/', (req, res) => {
+    res.render('index');
+});
+
+app.get('/mensagem_get', (req, res) => {
+    let msg = req.query.mensagem;
+    console.log(msg);
+    res.end();
+});
+
 app.get('/pato', (req, res) => {
     res.render('./aula/pato', { title: 'Página de Pato' })
 });
@@ -37,6 +47,7 @@ app.get('/index', (req, res) => {
 
     res.render('./atividade/index', { usuarios })
 });
+
 app.get('/login', (req, res) => {
 
     res.render('./atividade/login')
